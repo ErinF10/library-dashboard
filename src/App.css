@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  display: flex;
+}
+
+.navbar {
+  width: 170px;
+  height:100%;
+  position: fixed;
+  border-style: solid;
+  border-width: .5px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 15px;
+}
+
+.stat-card-container {
+  display: flex;
+  gap: 10px;
+}
+
+.stat-card {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Right and down with a blur */
+}
+
+.book-info-container {
+  display: flex;
+  gap: 15px;
+}
+
+.book-info-container img {
+  height: 250px;
+}
+
+input {
+  background-color: white;
+  color:black;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
