@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  width: 170px;
+  width: 150px;
   height:100%;
   position: fixed;
   border-style: solid;
@@ -15,17 +15,22 @@
 }
 
 .main-content {
-  margin-left: 220px;
+  margin-left: 200px;
   padding: 15px;
 }
 
 .stat-card-container {
   display: flex;
-  gap: 10px;
+  gap: 50px;
 }
 
 .stat-card {
   padding: 10px;
+  width: 280px;
+  padding: 10px 0 10px 40px;
+  /* display: flex; */
+  justify-content: center;
+  align-content: center;
   background-color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Right and down with a blur */
@@ -48,4 +53,22 @@ input {
 .filters {
   display: flex;
   gap: 10px;
+}
+
+.data-visualizations {
+  display: flex;
+  gap: 10px;
+}
+
+.price-chart {
+  width: 650px;
+}
+
+.pub-chart {
+  width: 650px;
+}
+
+.details {
+  margin: 20px;
+
 }

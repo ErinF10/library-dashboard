@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Book({ book }) {
     return (
@@ -10,7 +11,7 @@ function Book({ book }) {
             <div>
                 <p><strong>Author:</strong> {book.volumeInfo.authors ? book.volumeInfo.authors.join(', ') : 'Unknown'}</p>
                 <p><strong>Published</strong>: {book.volumeInfo.publishedDate || 'Unknown'}</p>
-                <p><strong>Description</strong>: {book.volumeInfo.description || 'No description'}</p>
+                <Link to={`/details/${book.volumeInfo.title}`}>Click here for more details</Link>
             </div>
             
         </div>
