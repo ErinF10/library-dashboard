@@ -1,39 +1,36 @@
-# Web Development Project 5 - *Library Dashboard*
+# Web Development Project 6 - *Library Dashboard*
 
 Submitted by: **Erin Forrest**
 
 This web app: **Allows users to filter through various options for books that they may like to purchase.**
 
-Time spent: **3** hours spent in total
-
-## Required Features
+Time spent: **5** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The list displays a list of data fetched using an API call**
-- [x] **Data uses the useEffect React hook and async/await syntax**
-- [x] **The app dashboard includes at least three summary statistics about the data such as**
-  - [x] *The total number of books to choose from*
-  - [x] *The cheapest book in the selection*
-  - [x] *The book most recently published from the selection*
-- [x] **A search bar allows the user to search for an item in the fetched data**
-- [x] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [x] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [x] **Clicking on an item in the list view displays more details about it**
+  - [x] To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page**
+  - [x] To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.  
+
 
 The following **optional** features are implemented:
 
-- [x] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [x] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/user-attachments/assets/33a62c9d-9267-42c8-9360-6dc12ab306d7' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/user-attachments/assets/0afd4063-f271-407e-97ef-f50391b2b448' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap](https://getkap.co/) for macOS
@@ -41,7 +38,7 @@ GIF created with [Kap](https://getkap.co/) for macOS
 
 ## Notes
 
-I learned how to filter object in more depth.
+I learned how to filter objects in more depth.
 
 ## License
 
